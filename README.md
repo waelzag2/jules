@@ -12,8 +12,9 @@ Before running the application, you need to install the required dependencies.
 4.  Run the following command to install the necessary libraries (`requests` and `Pillow`):
 
     ```bash
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt
     ```
+    *Note: If you encounter an error like "Fatal error in launcher: Unable to create process using... pip.exe", using `python -m pip` is the recommended workaround.*
 
 ## Usage
 
